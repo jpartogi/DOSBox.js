@@ -4,7 +4,7 @@
   "description": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require blanket -R html-cov > coverage.html"
+    "test": "mocha --recursive --require blanket -R html-cov > coverage.html"
   },
   "repository": {
     "type": "git",
